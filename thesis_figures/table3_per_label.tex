@@ -1,0 +1,27 @@
+\begin{table*}[t]
+\centering
+\caption{Per-label F1 scores across experiments (controlled domain). Best per row is \textbf{bolded}. Geo = geometric, Hol = holistic, Tmp = temporal.}
+\label{tab:per-label}
+\small
+\begin{tabular}{llccccccc}
+\toprule
+Label & Group & E1: Zero-shot & E2: SFT & E3: Pose-only & E4: Always-tool & E5: Agentic & E5b: Agentic-FT & E5c: SFT+Agentic-Inf \\
+\midrule
+shoulder-width & Geo & 0.322 & \textbf{0.729} & 0.312 & 0.681 & 0.000 & 0.471 & 0.000 \\
+narrow & Geo & 0.204 & 0.400 & 0.410 & \textbf{0.447} & 0.361 & 0.413 & 0.031 \\
+wide & Geo & 0.139 & \textbf{0.375} & 0.012 & 0.337 & 0.236 & 0.165 & 0.091 \\
+plie & Geo & 0.000 & \textbf{0.447} & 0.370 & 0.408 & 0.000 & 0.238 & 0.000 \\
+shallow & Geo & 0.358 & \textbf{0.487} & 0.425 & 0.416 & 0.237 & 0.395 & 0.148 \\
+90 degrees & Geo & 0.105 & \textbf{0.575} & 0.288 & 0.077 & 0.000 & 0.264 & 0.000 \\
+over 90 degrees & Geo & 0.000 & 0.202 & \textbf{0.528} & 0.024 & 0.000 & 0.048 & 0.000 \\
+back not straight & Hol & 0.264 & \textbf{0.278} & 0.097 & 0.270 & 0.071 & 0.200 & 0.061 \\
+knees over toes & Hol & 0.000 & 0.188 & 0.122 & 0.169 & 0.000 & \textbf{0.354} & 0.077 \\
+insufficient & Hol & 0.000 & 0.239 & 0.000 & 0.185 & 0.000 & \textbf{0.329} & 0.000 \\
+hold & Tmp & 0.170 & 0.000 & \textbf{0.389} & 0.232 & 0.000 & 0.081 & 0.095 \\
+not visible & Tmp & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 \\
+\midrule
+\textit{Avg Geometric} & --- & 0.161 & \textbf{0.459} & 0.335 & 0.341 & 0.119 & 0.285 & 0.038 \\
+\textit{Avg Holistic} & --- & 0.088 & 0.235 & 0.073 & 0.208 & 0.024 & \textbf{0.294} & 0.046 \\
+\bottomrule
+\end{tabular}
+\end{table*}

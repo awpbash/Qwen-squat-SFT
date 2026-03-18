@@ -1,0 +1,39 @@
+\begin{table*}[t]
+\centering
+\caption{Main results across all experiments and evaluation domains. Macro F1 (active) averages only over labels with ground-truth support $>0$, preventing zero-support labels from deflating wild-domain scores. Best results per domain are \textbf{bolded}. CI = bootstrap 95\% confidence interval (5000 resamples).}
+\label{tab:main-results}
+\small
+\begin{tabular}{llrcccccccc}
+\toprule
+Experiment & Domain & $N$ & Macro F1 (act.) & 95\% CI & Micro F1 & Subset Acc & Hamming$\downarrow$ & Geo F1 & Hol F1 & Cover \\
+\midrule
+E1: Zero-shot & controlled & 413 & 0.130 & [0.115, 0.145] & 0.218 & 0.010 & 0.392 & 0.161 & 0.088 & 58% \\
+\midrule
+E1: Zero-shot & wild & 70 & 0.150 & [0.101, 0.194] & 0.115 & 0.000 & 0.330 & 0.000 & 0.150 & 8% \\
+\midrule
+E2: SFT & controlled & 413 & \textbf{0.327} & [0.293, 0.361] & 0.472 & 0.097 & 0.228 & 0.459 & 0.235 & 83% \\
+\midrule
+E2: SFT & wild & 70 & 0.178 & [0.111, 0.249] & 0.157 & 0.000 & 0.268 & 0.013 & 0.148 & 17% \\
+\midrule
+E3: Pose-only & controlled & 413 & 0.246 & [0.221, 0.272] & 0.313 & 0.056 & 0.254 & 0.335 & 0.073 & 83% \\
+\midrule
+E3: Pose-only & wild & 70 & 0.167 & [0.119, 0.208] & 0.133 & 0.000 & 0.325 & 0.000 & 0.167 & 8% \\
+\midrule
+E4: Always-tool & controlled & 413 & 0.270 & [0.240, 0.301] & 0.380 & 0.044 & 0.257 & 0.341 & 0.208 & 92% \\
+\midrule
+E4: Always-tool & wild & 70 & 0.275 & [0.212, 0.328] & 0.216 & 0.000 & 0.268 & 0.056 & 0.144 & 17% \\
+\midrule
+E5: Agentic & controlled & 413 & 0.075 & [0.057, 0.093] & 0.093 & 0.022 & 0.228 & 0.119 & 0.024 & 33% \\
+\midrule
+E5: Agentic & wild & 70 & 0.130 & [0.057, 0.201] & 0.168 & 0.243 & 0.094 & 0.011 & 0.104 & 17% \\
+\midrule
+E5b: Agentic-FT & controlled & 413 & 0.246 & [0.219, 0.273] & 0.322 & 0.027 & 0.269 & 0.285 & 0.294 & 92% \\
+\midrule
+E5b: Agentic-FT & wild & 70 & \textbf{0.289} & [0.216, 0.354] & 0.172 & 0.000 & 0.299 & 0.064 & 0.139 & 17% \\
+\midrule
+E5c: SFT+Agentic-Inf & controlled & 413 & 0.042 & [0.022, 0.063] & 0.039 & 0.000 & 0.209 & 0.038 & 0.046 & 50% \\
+\midrule
+E5c: SFT+Agentic-Inf & wild & 70 & 0.062 & [0.000, 0.145] & 0.062 & 0.300 & 0.073 & 0.014 & 0.029 & 17% \\
+\bottomrule
+\end{tabular}
+\end{table*}

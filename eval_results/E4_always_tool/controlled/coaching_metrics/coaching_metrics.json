@@ -1,0 +1,72 @@
+{
+  "n_samples": 413,
+  "issue_recall": {
+    "mean": 0.3890234059725586,
+    "se": 0.021855161025549016
+  },
+  "issue_precision": {
+    "mean": 0.19036089011875934,
+    "se": 0.01580281160555422
+  },
+  "hallucination_rate": {
+    "mean": 0.8096391098812409,
+    "se": 0.015802811605554225
+  },
+  "specificity": {
+    "mean": 1.9709443099273607,
+    "se": 0.01178973832022665
+  },
+  "contradiction_rate": {
+    "mean": 0.03631961259079903,
+    "se": 0.00921697704534941
+  },
+  "avg_coaching_points": 4.9757869249394675,
+  "samples_with_no_coaching": 3,
+  "per_issue": {
+    "shallow": {
+      "total_in_gt": 90,
+      "covered_in_coaching": 36,
+      "times_hallucinated": 149
+    },
+    "over 90 degrees": {
+      "total_in_gt": 82,
+      "covered_in_coaching": 21,
+      "times_hallucinated": 61
+    },
+    "back not straight": {
+      "total_in_gt": 58,
+      "covered_in_coaching": 56,
+      "times_hallucinated": 310
+    },
+    "knees over toes": {
+      "total_in_gt": 68,
+      "covered_in_coaching": 13,
+      "times_hallucinated": 63
+    },
+    "narrow": {
+      "total_in_gt": 63,
+      "covered_in_coaching": 7,
+      "times_hallucinated": 42
+    },
+    "wide": {
+      "total_in_gt": 23,
+      "covered_in_coaching": 4,
+      "times_hallucinated": 49
+    },
+    "plie": {
+      "total_in_gt": 52,
+      "covered_in_coaching": 3,
+      "times_hallucinated": 7
+    },
+    "hold": {
+      "total_in_gt": 30,
+      "covered_in_coaching": 4,
+      "times_hallucinated": 26
+    },
+    "insufficient": {
+      "total_in_gt": 57,
+      "covered_in_coaching": 4,
+      "times_hallucinated": 13
+    }
+  }
+}

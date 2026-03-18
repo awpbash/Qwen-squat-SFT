@@ -1,0 +1,1013 @@
+{
+  "label_coverage": {
+    "labels_with_wild_data": [
+      "shallow",
+      "back not straight",
+      "insufficient"
+    ],
+    "labels_missing_wild": [
+      "shoulder-width",
+      "narrow",
+      "wide",
+      "plie",
+      "90 degrees",
+      "over 90 degrees",
+      "knees over toes",
+      "hold",
+      "not visible"
+    ],
+    "coverage_pct": 25.0,
+    "min_support_threshold": 5
+  },
+  "per_experiment_gaps": {
+    "E1_zero_shot": {
+      "shoulder-width": {
+        "controlled_f1": 0.3216374269005848,
+        "wild_f1": 0.0,
+        "gap": 0.3216374269005848,
+        "group": "geometric",
+        "ctrl_support": 257,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "narrow": {
+        "controlled_f1": 0.2040816326530612,
+        "wild_f1": 0.0,
+        "gap": 0.2040816326530612,
+        "group": "geometric",
+        "ctrl_support": 63,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "wide": {
+        "controlled_f1": 0.13924050632911394,
+        "wild_f1": 0.0,
+        "gap": 0.13924050632911394,
+        "group": "geometric",
+        "ctrl_support": 23,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "plie": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 52,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "shallow": {
+        "controlled_f1": 0.35789473684210527,
+        "wild_f1": 0.0,
+        "gap": 0.35789473684210527,
+        "group": "geometric",
+        "ctrl_support": 90,
+        "wild_support": 19,
+        "both_have_data": true
+      },
+      "90 degrees": {
+        "controlled_f1": 0.10471204188481674,
+        "wild_f1": 0.0,
+        "gap": 0.10471204188481674,
+        "group": "geometric",
+        "ctrl_support": 164,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "over 90 degrees": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 82,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "back not straight": {
+        "controlled_f1": 0.2642369020501139,
+        "wild_f1": 0.45000000000000007,
+        "gap": -0.18576309794988616,
+        "group": "holistic",
+        "ctrl_support": 58,
+        "wild_support": 21,
+        "both_have_data": true
+      },
+      "knees over toes": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "holistic",
+        "ctrl_support": 68,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "insufficient": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "holistic",
+        "ctrl_support": 57,
+        "wild_support": 17,
+        "both_have_data": true
+      },
+      "hold": {
+        "controlled_f1": 0.17045454545454544,
+        "wild_f1": 0.0,
+        "gap": 0.17045454545454544,
+        "group": "temporal",
+        "ctrl_support": 30,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "not visible": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "meta",
+        "ctrl_support": 4,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "_avg_geometric": {
+        "controlled_f1": 0.35789473684210527,
+        "wild_f1": 0.0,
+        "gap": 0.35789473684210527,
+        "group": "geometric",
+        "n_labels": 1
+      },
+      "_avg_holistic": {
+        "controlled_f1": 0.13211845102505695,
+        "wild_f1": 0.22500000000000003,
+        "gap": -0.09288154897494308,
+        "group": "holistic",
+        "n_labels": 2
+      },
+      "_avg_overall": {
+        "controlled_f1": 0.20737721296407305,
+        "wild_f1": 0.15000000000000002,
+        "gap": 0.057377212964073034,
+        "group": "overall",
+        "n_labels": 3
+      }
+    },
+    "E2_sft": {
+      "shoulder-width": {
+        "controlled_f1": 0.7286245353159851,
+        "wild_f1": 0.0,
+        "gap": 0.7286245353159851,
+        "group": "geometric",
+        "ctrl_support": 257,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "narrow": {
+        "controlled_f1": 0.4,
+        "wild_f1": 0.0,
+        "gap": 0.4,
+        "group": "geometric",
+        "ctrl_support": 63,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "wide": {
+        "controlled_f1": 0.375,
+        "wild_f1": 0.0,
+        "gap": 0.375,
+        "group": "geometric",
+        "ctrl_support": 23,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "plie": {
+        "controlled_f1": 0.44660194174757284,
+        "wild_f1": 0.0,
+        "gap": 0.44660194174757284,
+        "group": "geometric",
+        "ctrl_support": 52,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "shallow": {
+        "controlled_f1": 0.48727272727272725,
+        "wild_f1": 0.09090909090909091,
+        "gap": 0.39636363636363636,
+        "group": "geometric",
+        "ctrl_support": 90,
+        "wild_support": 19,
+        "both_have_data": true
+      },
+      "90 degrees": {
+        "controlled_f1": 0.5745856353591161,
+        "wild_f1": 0.0,
+        "gap": 0.5745856353591161,
+        "group": "geometric",
+        "ctrl_support": 164,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "over 90 degrees": {
+        "controlled_f1": 0.20202020202020202,
+        "wild_f1": 0.0,
+        "gap": 0.20202020202020202,
+        "group": "geometric",
+        "ctrl_support": 82,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "back not straight": {
+        "controlled_f1": 0.27817745803357313,
+        "wild_f1": 0.4444444444444445,
+        "gap": -0.16626698641087134,
+        "group": "holistic",
+        "ctrl_support": 58,
+        "wild_support": 21,
+        "both_have_data": true
+      },
+      "knees over toes": {
+        "controlled_f1": 0.18823529411764706,
+        "wild_f1": 0.0,
+        "gap": 0.18823529411764706,
+        "group": "holistic",
+        "ctrl_support": 68,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "insufficient": {
+        "controlled_f1": 0.23880597014925373,
+        "wild_f1": 0.0,
+        "gap": 0.23880597014925373,
+        "group": "holistic",
+        "ctrl_support": 57,
+        "wild_support": 17,
+        "both_have_data": true
+      },
+      "hold": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "temporal",
+        "ctrl_support": 30,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "not visible": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "meta",
+        "ctrl_support": 4,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "_avg_geometric": {
+        "controlled_f1": 0.48727272727272725,
+        "wild_f1": 0.09090909090909091,
+        "gap": 0.39636363636363636,
+        "group": "geometric",
+        "n_labels": 1
+      },
+      "_avg_holistic": {
+        "controlled_f1": 0.2584917140914134,
+        "wild_f1": 0.22222222222222224,
+        "gap": 0.03626949186919119,
+        "group": "holistic",
+        "n_labels": 2
+      },
+      "_avg_overall": {
+        "controlled_f1": 0.334752051818518,
+        "wild_f1": 0.17845117845117844,
+        "gap": 0.15630087336733958,
+        "group": "overall",
+        "n_labels": 3
+      }
+    },
+    "E3_pose_only": {
+      "shoulder-width": {
+        "controlled_f1": 0.3118279569892473,
+        "wild_f1": 0.0,
+        "gap": 0.3118279569892473,
+        "group": "geometric",
+        "ctrl_support": 257,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "narrow": {
+        "controlled_f1": 0.40963855421686746,
+        "wild_f1": 0.0,
+        "gap": 0.40963855421686746,
+        "group": "geometric",
+        "ctrl_support": 63,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "wide": {
+        "controlled_f1": 0.012195121951219513,
+        "wild_f1": 0.0,
+        "gap": 0.012195121951219513,
+        "group": "geometric",
+        "ctrl_support": 23,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "plie": {
+        "controlled_f1": 0.3703703703703704,
+        "wild_f1": 0.0,
+        "gap": 0.3703703703703704,
+        "group": "geometric",
+        "ctrl_support": 52,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "shallow": {
+        "controlled_f1": 0.42514970059880236,
+        "wild_f1": 0.0,
+        "gap": 0.42514970059880236,
+        "group": "geometric",
+        "ctrl_support": 90,
+        "wild_support": 19,
+        "both_have_data": true
+      },
+      "90 degrees": {
+        "controlled_f1": 0.28828828828828834,
+        "wild_f1": 0.0,
+        "gap": 0.28828828828828834,
+        "group": "geometric",
+        "ctrl_support": 164,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "over 90 degrees": {
+        "controlled_f1": 0.5284974093264249,
+        "wild_f1": 0.0,
+        "gap": 0.5284974093264249,
+        "group": "geometric",
+        "ctrl_support": 82,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "back not straight": {
+        "controlled_f1": 0.0967741935483871,
+        "wild_f1": 0.5,
+        "gap": -0.4032258064516129,
+        "group": "holistic",
+        "ctrl_support": 58,
+        "wild_support": 21,
+        "both_have_data": true
+      },
+      "knees over toes": {
+        "controlled_f1": 0.12195121951219512,
+        "wild_f1": 0.0,
+        "gap": 0.12195121951219512,
+        "group": "holistic",
+        "ctrl_support": 68,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "insufficient": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "holistic",
+        "ctrl_support": 57,
+        "wild_support": 17,
+        "both_have_data": true
+      },
+      "hold": {
+        "controlled_f1": 0.3888888888888889,
+        "wild_f1": 0.0,
+        "gap": 0.3888888888888889,
+        "group": "temporal",
+        "ctrl_support": 30,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "not visible": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "meta",
+        "ctrl_support": 4,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "_avg_geometric": {
+        "controlled_f1": 0.42514970059880236,
+        "wild_f1": 0.0,
+        "gap": 0.42514970059880236,
+        "group": "geometric",
+        "n_labels": 1
+      },
+      "_avg_holistic": {
+        "controlled_f1": 0.04838709677419355,
+        "wild_f1": 0.25,
+        "gap": -0.20161290322580644,
+        "group": "holistic",
+        "n_labels": 2
+      },
+      "_avg_overall": {
+        "controlled_f1": 0.17397463138239647,
+        "wild_f1": 0.16666666666666666,
+        "gap": 0.007307964715729827,
+        "group": "overall",
+        "n_labels": 3
+      }
+    },
+    "E4_always_tool": {
+      "shoulder-width": {
+        "controlled_f1": 0.6811881188118811,
+        "wild_f1": 0.0,
+        "gap": 0.6811881188118811,
+        "group": "geometric",
+        "ctrl_support": 257,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "narrow": {
+        "controlled_f1": 0.4466019417475728,
+        "wild_f1": 0.0,
+        "gap": 0.4466019417475728,
+        "group": "geometric",
+        "ctrl_support": 63,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "wide": {
+        "controlled_f1": 0.33707865168539325,
+        "wild_f1": 0.0,
+        "gap": 0.33707865168539325,
+        "group": "geometric",
+        "ctrl_support": 23,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "plie": {
+        "controlled_f1": 0.4077669902912621,
+        "wild_f1": 0.0,
+        "gap": 0.4077669902912621,
+        "group": "geometric",
+        "ctrl_support": 52,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "shallow": {
+        "controlled_f1": 0.4164383561643835,
+        "wild_f1": 0.39344262295081966,
+        "gap": 0.02299573321356385,
+        "group": "geometric",
+        "ctrl_support": 90,
+        "wild_support": 19,
+        "both_have_data": true
+      },
+      "90 degrees": {
+        "controlled_f1": 0.07650273224043717,
+        "wild_f1": 0.0,
+        "gap": 0.07650273224043717,
+        "group": "geometric",
+        "ctrl_support": 164,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "over 90 degrees": {
+        "controlled_f1": 0.024096385542168676,
+        "wild_f1": 0.0,
+        "gap": 0.024096385542168676,
+        "group": "geometric",
+        "ctrl_support": 82,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "back not straight": {
+        "controlled_f1": 0.27,
+        "wild_f1": 0.43181818181818177,
+        "gap": -0.16181818181818175,
+        "group": "holistic",
+        "ctrl_support": 58,
+        "wild_support": 21,
+        "both_have_data": true
+      },
+      "knees over toes": {
+        "controlled_f1": 0.1686746987951807,
+        "wild_f1": 0.0,
+        "gap": 0.1686746987951807,
+        "group": "holistic",
+        "ctrl_support": 68,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "insufficient": {
+        "controlled_f1": 0.1846153846153846,
+        "wild_f1": 0.0,
+        "gap": 0.1846153846153846,
+        "group": "holistic",
+        "ctrl_support": 57,
+        "wild_support": 17,
+        "both_have_data": true
+      },
+      "hold": {
+        "controlled_f1": 0.2318840579710145,
+        "wild_f1": 0.0,
+        "gap": 0.2318840579710145,
+        "group": "temporal",
+        "ctrl_support": 30,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "not visible": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "meta",
+        "ctrl_support": 4,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "_avg_geometric": {
+        "controlled_f1": 0.4164383561643835,
+        "wild_f1": 0.39344262295081966,
+        "gap": 0.02299573321356385,
+        "group": "geometric",
+        "n_labels": 1
+      },
+      "_avg_holistic": {
+        "controlled_f1": 0.22730769230769232,
+        "wild_f1": 0.21590909090909088,
+        "gap": 0.011398601398601424,
+        "group": "holistic",
+        "n_labels": 2
+      },
+      "_avg_overall": {
+        "controlled_f1": 0.29035124692658937,
+        "wild_f1": 0.27508693492300046,
+        "gap": 0.0152643120035889,
+        "group": "overall",
+        "n_labels": 3
+      }
+    },
+    "E5_agentic_untrained": {
+      "shoulder-width": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 257,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "narrow": {
+        "controlled_f1": 0.36144578313253006,
+        "wild_f1": 0.0,
+        "gap": 0.36144578313253006,
+        "group": "geometric",
+        "ctrl_support": 63,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "wide": {
+        "controlled_f1": 0.23622047244094488,
+        "wild_f1": 0.0,
+        "gap": 0.23622047244094488,
+        "group": "geometric",
+        "ctrl_support": 23,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "plie": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 52,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "shallow": {
+        "controlled_f1": 0.2369668246445498,
+        "wild_f1": 0.08,
+        "gap": 0.1569668246445498,
+        "group": "geometric",
+        "ctrl_support": 90,
+        "wild_support": 19,
+        "both_have_data": true
+      },
+      "90 degrees": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 164,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "over 90 degrees": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 82,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "back not straight": {
+        "controlled_f1": 0.07058823529411765,
+        "wild_f1": 0.3111111111111111,
+        "gap": -0.24052287581699347,
+        "group": "holistic",
+        "ctrl_support": 58,
+        "wild_support": 21,
+        "both_have_data": true
+      },
+      "knees over toes": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "holistic",
+        "ctrl_support": 68,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "insufficient": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "holistic",
+        "ctrl_support": 57,
+        "wild_support": 17,
+        "both_have_data": true
+      },
+      "hold": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "temporal",
+        "ctrl_support": 30,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "not visible": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "meta",
+        "ctrl_support": 4,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "_avg_geometric": {
+        "controlled_f1": 0.2369668246445498,
+        "wild_f1": 0.08,
+        "gap": 0.1569668246445498,
+        "group": "geometric",
+        "n_labels": 1
+      },
+      "_avg_holistic": {
+        "controlled_f1": 0.03529411764705882,
+        "wild_f1": 0.15555555555555556,
+        "gap": -0.12026143790849673,
+        "group": "holistic",
+        "n_labels": 2
+      },
+      "_avg_overall": {
+        "controlled_f1": 0.10251835331288915,
+        "wild_f1": 0.1303703703703704,
+        "gap": -0.02785201705748122,
+        "group": "overall",
+        "n_labels": 3
+      }
+    },
+    "E5b_agentic_trained": {
+      "shoulder-width": {
+        "controlled_f1": 0.47058823529411764,
+        "wild_f1": 0.0,
+        "gap": 0.47058823529411764,
+        "group": "geometric",
+        "ctrl_support": 257,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "narrow": {
+        "controlled_f1": 0.4130434782608695,
+        "wild_f1": 0.0,
+        "gap": 0.4130434782608695,
+        "group": "geometric",
+        "ctrl_support": 63,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "wide": {
+        "controlled_f1": 0.1650485436893204,
+        "wild_f1": 0.0,
+        "gap": 0.1650485436893204,
+        "group": "geometric",
+        "ctrl_support": 23,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "plie": {
+        "controlled_f1": 0.2380952380952381,
+        "wild_f1": 0.0,
+        "gap": 0.2380952380952381,
+        "group": "geometric",
+        "ctrl_support": 52,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "shallow": {
+        "controlled_f1": 0.3948717948717948,
+        "wild_f1": 0.44897959183673464,
+        "gap": -0.054107796964939836,
+        "group": "geometric",
+        "ctrl_support": 90,
+        "wild_support": 19,
+        "both_have_data": true
+      },
+      "90 degrees": {
+        "controlled_f1": 0.2641509433962264,
+        "wild_f1": 0.0,
+        "gap": 0.2641509433962264,
+        "group": "geometric",
+        "ctrl_support": 164,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "over 90 degrees": {
+        "controlled_f1": 0.047619047619047616,
+        "wild_f1": 0.0,
+        "gap": 0.047619047619047616,
+        "group": "geometric",
+        "ctrl_support": 82,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "back not straight": {
+        "controlled_f1": 0.2,
+        "wild_f1": 0.4166666666666667,
+        "gap": -0.21666666666666667,
+        "group": "holistic",
+        "ctrl_support": 58,
+        "wild_support": 21,
+        "both_have_data": true
+      },
+      "knees over toes": {
+        "controlled_f1": 0.35379061371841153,
+        "wild_f1": 0.0,
+        "gap": 0.35379061371841153,
+        "group": "holistic",
+        "ctrl_support": 68,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "insufficient": {
+        "controlled_f1": 0.3287671232876712,
+        "wild_f1": 0.0,
+        "gap": 0.3287671232876712,
+        "group": "holistic",
+        "ctrl_support": 57,
+        "wild_support": 17,
+        "both_have_data": true
+      },
+      "hold": {
+        "controlled_f1": 0.08108108108108107,
+        "wild_f1": 0.0,
+        "gap": 0.08108108108108107,
+        "group": "temporal",
+        "ctrl_support": 30,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "not visible": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "meta",
+        "ctrl_support": 4,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "_avg_geometric": {
+        "controlled_f1": 0.3948717948717948,
+        "wild_f1": 0.44897959183673464,
+        "gap": -0.054107796964939836,
+        "group": "geometric",
+        "n_labels": 1
+      },
+      "_avg_holistic": {
+        "controlled_f1": 0.2643835616438356,
+        "wild_f1": 0.20833333333333334,
+        "gap": 0.05605022831050227,
+        "group": "holistic",
+        "n_labels": 2
+      },
+      "_avg_overall": {
+        "controlled_f1": 0.30787963938648866,
+        "wild_f1": 0.28854875283446707,
+        "gap": 0.01933088655202157,
+        "group": "overall",
+        "n_labels": 3
+      }
+    },
+    "E5c_agentic_sft": {
+      "shoulder-width": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 257,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "narrow": {
+        "controlled_f1": 0.03076923076923077,
+        "wild_f1": 0.0,
+        "gap": 0.03076923076923077,
+        "group": "geometric",
+        "ctrl_support": 63,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "wide": {
+        "controlled_f1": 0.09090909090909091,
+        "wild_f1": 0.0,
+        "gap": 0.09090909090909091,
+        "group": "geometric",
+        "ctrl_support": 23,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "plie": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 52,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "shallow": {
+        "controlled_f1": 0.1475409836065574,
+        "wild_f1": 0.1,
+        "gap": 0.047540983606557397,
+        "group": "geometric",
+        "ctrl_support": 90,
+        "wild_support": 19,
+        "both_have_data": true
+      },
+      "90 degrees": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 164,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "over 90 degrees": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "geometric",
+        "ctrl_support": 82,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "back not straight": {
+        "controlled_f1": 0.0606060606060606,
+        "wild_f1": 0.08695652173913042,
+        "gap": -0.026350461133069818,
+        "group": "holistic",
+        "ctrl_support": 58,
+        "wild_support": 21,
+        "both_have_data": true
+      },
+      "knees over toes": {
+        "controlled_f1": 0.07692307692307693,
+        "wild_f1": 0.0,
+        "gap": 0.07692307692307693,
+        "group": "holistic",
+        "ctrl_support": 68,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "insufficient": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "holistic",
+        "ctrl_support": 57,
+        "wild_support": 17,
+        "both_have_data": true
+      },
+      "hold": {
+        "controlled_f1": 0.09523809523809522,
+        "wild_f1": 0.0,
+        "gap": 0.09523809523809522,
+        "group": "temporal",
+        "ctrl_support": 30,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "not visible": {
+        "controlled_f1": 0.0,
+        "wild_f1": 0.0,
+        "gap": 0.0,
+        "group": "meta",
+        "ctrl_support": 4,
+        "wild_support": 0,
+        "both_have_data": false
+      },
+      "_avg_geometric": {
+        "controlled_f1": 0.1475409836065574,
+        "wild_f1": 0.1,
+        "gap": 0.047540983606557397,
+        "group": "geometric",
+        "n_labels": 1
+      },
+      "_avg_holistic": {
+        "controlled_f1": 0.0303030303030303,
+        "wild_f1": 0.04347826086956521,
+        "gap": -0.013175230566534909,
+        "group": "holistic",
+        "n_labels": 2
+      },
+      "_avg_overall": {
+        "controlled_f1": 0.06938234807087267,
+        "wild_f1": 0.062318840579710134,
+        "gap": 0.007063507491162527,
+        "group": "overall",
+        "n_labels": 3
+      }
+    }
+  },
+  "bootstrap_ci": {
+    "E1_zero_shot": {
+      "gap_mean": -0.018379924217098408,
+      "gap_ci_low": -0.06476213220351708,
+      "gap_ci_high": 0.029743472862702285,
+      "gap_se": 0.024232800481703436,
+      "ctrl_f1_mean": 0.13007997627358278,
+      "wild_f1_mean": 0.1484599004906812,
+      "n_ctrl": 413,
+      "n_wild": 70
+    },
+    "E2_sft": {
+      "gap_mean": 0.15001471035638098,
+      "gap_ci_low": 0.06493130691138518,
+      "gap_ci_high": 0.22113079384907394,
+      "gap_se": 0.039392978846422115,
+      "ctrl_f1_mean": 0.325895520190287,
+      "wild_f1_mean": 0.17588080983390605,
+      "n_ctrl": 413,
+      "n_wild": 70
+    },
+    "E3_pose_only": {
+      "gap_mean": 0.08019853146954686,
+      "gap_ci_low": 0.03104668605652546,
+      "gap_ci_high": 0.1319035441320138,
+      "gap_se": 0.025900455461769174,
+      "ctrl_f1_mean": 0.24535780448177666,
+      "wild_f1_mean": 0.1651592730122298,
+      "n_ctrl": 413,
+      "n_wild": 70
+    },
+    "E4_always_tool": {
+      "gap_mean": -0.002811508832306313,
+      "gap_ci_low": -0.06578917048745116,
+      "gap_ci_high": 0.0638575539888754,
+      "gap_se": 0.032819001040372636,
+      "ctrl_f1_mean": 0.26948837059155956,
+      "wild_f1_mean": 0.27229987942386585,
+      "n_ctrl": 413,
+      "n_wild": 70
+    },
+    "E5_agentic_untrained": {
+      "gap_mean": -0.053197880258139596,
+      "gap_ci_low": -0.13136818480227677,
+      "gap_ci_high": 0.019337712332169223,
+      "gap_se": 0.03867601125793984,
+      "ctrl_f1_mean": 0.07491025652389047,
+      "wild_f1_mean": 0.1281081367820301,
+      "n_ctrl": 413,
+      "n_wild": 70
+    },
+    "E5b_agentic_trained": {
+      "gap_mean": -0.04002581349757834,
+      "gap_ci_low": -0.11407272531829869,
+      "gap_ci_high": 0.03794817523114283,
+      "gap_se": 0.03835154901202805,
+      "ctrl_f1_mean": 0.2455289194389281,
+      "wild_f1_mean": 0.28555473293650646,
+      "n_ctrl": 413,
+      "n_wild": 70
+    },
+    "E5c_agentic_sft": {
+      "gap_mean": -0.018212781541987813,
+      "gap_ci_low": -0.102223149170146,
+      "gap_ci_high": 0.05063725870738539,
+      "gap_se": 0.040410251383836776,
+      "ctrl_f1_mean": 0.04142824321390418,
+      "wild_f1_mean": 0.059641024755892,
+      "n_ctrl": 413,
+      "n_wild": 70
+    }
+  }
+}

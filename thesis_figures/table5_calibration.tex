@@ -1,0 +1,43 @@
+\begin{table}[t]
+\centering
+\caption{Agentic calibration analysis. Tool invocation rate, accuracy when tool is not invoked, and missed opportunity rate (cases where the tool would have helped but was not invoked).}
+\label{tab:calibration}
+\small
+\begin{tabular}{llccc}
+\toprule
+Experiment & Field & Invoke \% & Acc (no tool) & Missed \% \\
+\midrule
+E5\_agentic\_untrained/controlled & depth & 70.5\% & 19.7\% & 80.3\% \\
+ & form & 70.5\% & 66.4\% & 33.6\% \\
+ & stance & 70.5\% & 9.0\% & 91.0\% \\
+\midrule
+E5\_agentic\_untrained/wild & depth & 40.0\% & 78.6\% & 21.4\% \\
+ & form & 40.0\% & 50.0\% & 50.0\% \\
+ & stance & 40.0\% & 100.0\% & 0.0\% \\
+\midrule
+E5b\_agentic\_trained/controlled & depth & 100.0\% & 0.0\% & 0.0\% \\
+ & form & 100.0\% & 0.0\% & 0.0\% \\
+ & stance & 100.0\% & 0.0\% & 0.0\% \\
+\midrule
+E5b\_agentic\_trained/wild & depth & 100.0\% & 0.0\% & 0.0\% \\
+ & form & 100.0\% & 0.0\% & 0.0\% \\
+ & stance & 100.0\% & 0.0\% & 0.0\% \\
+\midrule
+E5c\_agentic\_sft/controlled & depth & 11.1\% & 18.0\% & 82.0\% \\
+ & form & 11.1\% & 61.3\% & 38.7\% \\
+ & stance & 11.1\% & 5.4\% & 94.6\% \\
+\midrule
+E5c\_agentic\_sft/wild & depth & 10.0\% & 76.2\% & 23.8\% \\
+ & form & 10.0\% & 54.0\% & 46.0\% \\
+ & stance & 10.0\% & 100.0\% & 0.0\% \\
+\midrule
+\midrule
+\textit{E5\_agentic\_untrained/controlled} & \textit{Overall} & 70.5\% & \multicolumn{2}{c}{Macro F1 = 0.075} \\
+\textit{E5\_agentic\_untrained/wild} & \textit{Overall} & 40.0\% & \multicolumn{2}{c}{Macro F1 = 0.033} \\
+\textit{E5b\_agentic\_trained/controlled} & \textit{Overall} & 100.0\% & \multicolumn{2}{c}{Macro F1 = 0.246} \\
+\textit{E5b\_agentic\_trained/wild} & \textit{Overall} & 100.0\% & \multicolumn{2}{c}{Macro F1 = 0.072} \\
+\textit{E5c\_agentic\_sft/controlled} & \textit{Overall} & 11.1\% & \multicolumn{2}{c}{Macro F1 = 0.042} \\
+\textit{E5c\_agentic\_sft/wild} & \textit{Overall} & 10.0\% & \multicolumn{2}{c}{Macro F1 = 0.016} \\
+\bottomrule
+\end{tabular}
+\end{table}

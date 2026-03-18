@@ -1,0 +1,3013 @@
+[
+  {
+    "id": "reddit_1ovckl2_Help_me_with_my_squat--seg1",
+    "video": "reddit_videos/1ovbxrs_Squat_Advice--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovckl2_Help_me_with_my_squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 6,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovbxrs_Squat_Advice--seg2",
+    "video": "reddit_videos/1ovbxrs_Squat_Advice--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovbxrs_Squat_Advice--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 8,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovbxrs_Squat_Advice--seg3",
+    "video": "reddit_videos/1ovbxrs_Squat_Advice--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovbxrs_Squat_Advice--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 8,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovckl2_Help_me_with_my_squat--seg1",
+    "video": "reddit_videos/1ovckl2_Help_me_with_my_squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight",
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovckl2_Help_me_with_my_squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "back_hyperextension",
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 6,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovckl2_Help_me_with_my_squat--seg2",
+    "video": "reddit_videos/1ovckl2_Help_me_with_my_squat--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovckl2_Help_me_with_my_squat--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "back_hyperextension"
+      ],
+      "reddit_form_score": 7,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovdw4e_Failed_1RM_low_bar_squat_Lacking_strength_or_bad_form-",
+    "video": "reddit_videos/1ovdw4e_Failed_1RM_low_bar_squat_Lacking_strength_or_bad_form-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight",
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight",
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovdw4e_Failed_1RM_low_bar_squat_Lacking_strength_or_bad_form-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "loss_of_bracing",
+        "torso_collapse"
+      ],
+      "reddit_form_score": 1.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovk57s_Squat_Questions_Please_Help_Me--seg1",
+    "video": "reddit_videos/1ovk57s_Squat_Questions_Please_Help_Me--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovk57s_Squat_Questions_Please_Help_Me--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 8.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovk57s_Squat_Questions_Please_Help_Me--seg2",
+    "video": "reddit_videos/1ovk57s_Squat_Questions_Please_Help_Me--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovk57s_Squat_Questions_Please_Help_Me--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "unknown",
+      "reddit_issues": [
+        "torso_collapse"
+      ],
+      "reddit_form_score": 5.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovk57s_Squat_Questions_Please_Help_Me--seg3",
+    "video": "reddit_videos/1ovk57s_Squat_Questions_Please_Help_Me--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovk57s_Squat_Questions_Please_Help_Me--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "knee_valgus",
+        "torso_collapse"
+      ],
+      "reddit_form_score": 4.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "knee_valgus"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovk57s_Squat_Questions_Please_Help_Me--seg5",
+    "video": "reddit_videos/1ovk57s_Squat_Questions_Please_Help_Me--seg5.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovk57s_Squat_Questions_Please_Help_Me--seg5",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "torso_collapse"
+      ],
+      "reddit_form_score": 4.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovqznv_squat_check--seg1",
+    "video": "reddit_videos/1ovqznv_squat_check--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovqznv_squat_check--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "back_rounding",
+        "heel_lift"
+      ],
+      "reddit_form_score": 7.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "heel_lift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovqznv_squat_check--seg2",
+    "video": "reddit_videos/1ovqznv_squat_check--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovqznv_squat_check--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "back_rounding",
+        "heel_lift"
+      ],
+      "reddit_form_score": 5.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "heel_lift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovrimw_Squat_165--seg1",
+    "video": "reddit_videos/1ovrimw_Squat_165--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovrimw_Squat_165--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ovrimw_Squat_165--seg2",
+    "video": "reddit_videos/1ovrimw_Squat_165--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ovrimw_Squat_165--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ow13mu_Back_Squat--seg1",
+    "video": "reddit_videos/1ow13mu_Back_Squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ow13mu_Back_Squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ow13mu_Back_Squat--seg3",
+    "video": "reddit_videos/1ow13mu_Back_Squat--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ow13mu_Back_Squat--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 10,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg1",
+    "video": "reddit_videos/1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "back_rounding"
+      ],
+      "reddit_form_score": 8.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg2",
+    "video": "reddit_videos/1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "back_rounding"
+      ],
+      "reddit_form_score": 9,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg4",
+    "video": "reddit_videos/1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg4.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ow21p6_Hows_my_Form_on_a_Paused_225x5_Squat--seg4",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owj7d1_Chicken_wing_elbow_and_lean_in_squat--seg1",
+    "video": "reddit_videos/1owj7d1_Chicken_wing_elbow_and_lean_in_squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owj7d1_Chicken_wing_elbow_and_lean_in_squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "front",
+      "reddit_issues": [
+        "knee_valgus"
+      ],
+      "reddit_form_score": 6.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "asymmetry_shift",
+          "knee_valgus"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owj7d1_Chicken_wing_elbow_and_lean_in_squat--seg4",
+    "video": "reddit_videos/1owj7d1_Chicken_wing_elbow_and_lean_in_squat--seg4.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owj7d1_Chicken_wing_elbow_and_lean_in_squat--seg4",
+      "exercise": "barbell_back_squat",
+      "camera_view": "front",
+      "reddit_issues": [
+        "knee_valgus"
+      ],
+      "reddit_form_score": 4.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "knee_valgus",
+          "asymmetry_shift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1own324_Back_squat_feedback--seg1",
+    "video": "reddit_videos/1own324_Back_squat_feedback--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1own324_Back_squat_feedback--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "unknown",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 7.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1own324_Back_squat_feedback--seg2",
+    "video": "reddit_videos/1own324_Back_squat_feedback--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1own324_Back_squat_feedback--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "unknown",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 9,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owtyoq_How_can_I_improve_my_squat--seg1",
+    "video": "reddit_videos/1owtyoq_How_can_I_improve_my_squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owtyoq_How_can_I_improve_my_squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "front",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 7.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "asymmetry_shift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owtyoq_How_can_I_improve_my_squat--seg3",
+    "video": "reddit_videos/1owtyoq_How_can_I_improve_my_squat--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owtyoq_How_can_I_improve_my_squat--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "front",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owtyoq_How_can_I_improve_my_squat--seg4",
+    "video": "reddit_videos/1owtyoq_How_can_I_improve_my_squat--seg4.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owtyoq_How_can_I_improve_my_squat--seg4",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 7,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "asymmetry_shift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owtyoq_How_can_I_improve_my_squat--seg5",
+    "video": "reddit_videos/1owtyoq_How_can_I_improve_my_squat--seg5.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owtyoq_How_can_I_improve_my_squat--seg5",
+      "exercise": "barbell_back_squat",
+      "camera_view": "unknown",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 6.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owx2cx_Squat_form_check--seg1",
+    "video": "reddit_videos/1owx2cx_Squat_form_check--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owx2cx_Squat_form_check--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 5.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "foot_collapse"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owx2cx_Squat_form_check--seg2",
+    "video": "reddit_videos/1owx2cx_Squat_form_check--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owx2cx_Squat_form_check--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 4.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owx2cx_Squat_form_check--seg6",
+    "video": "reddit_videos/1owx2cx_Squat_form_check--seg6.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owx2cx_Squat_form_check--seg6",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 5.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owxc7m_Critique_my_Squat--seg1",
+    "video": "reddit_videos/1owxc7m_Critique_my_Squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight",
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight",
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owxc7m_Critique_my_Squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "back_hyperextension",
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 4,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1owxc7m_Critique_my_Squat--seg2",
+    "video": "reddit_videos/1owxc7m_Critique_my_Squat--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight",
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight",
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1owxc7m_Critique_my_Squat--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "back_hyperextension",
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 4,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oxpm7u_Lowbar_Squat_update--seg1",
+    "video": "reddit_videos/1oxpm7u_Lowbar_Squat_update--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight",
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oxpm7u_Lowbar_Squat_update--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth",
+        "torso_collapse"
+      ],
+      "reddit_form_score": 2,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oxpm7u_Lowbar_Squat_update--seg3",
+    "video": "reddit_videos/1oxpm7u_Lowbar_Squat_update--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oxpm7u_Lowbar_Squat_update--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "back_rounding"
+      ],
+      "reddit_form_score": 8.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oxvigy_Roast_my_squat_form_6_x_100kg--seg1",
+    "video": "reddit_videos/1oxvigy_Roast_my_squat_form_6_x_100kg--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oxvigy_Roast_my_squat_form_6_x_100kg--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oxvigy_Roast_my_squat_form_6_x_100kg--seg4",
+    "video": "reddit_videos/1oxvigy_Roast_my_squat_form_6_x_100kg--seg4.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oxvigy_Roast_my_squat_form_6_x_100kg--seg4",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 10,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oxw5ln_Squat_5_x_95kg--seg1",
+    "video": "reddit_videos/1oxw5ln_Squat_5_x_95kg--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oxw5ln_Squat_5_x_95kg--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oxw5ln_Squat_5_x_95kg--seg5",
+    "video": "reddit_videos/1oxw5ln_Squat_5_x_95kg--seg5.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oxw5ln_Squat_5_x_95kg--seg5",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oxyumi_315_lb_Squat_1_RPM_Form_Check_-_Squat_Depth_Advice-",
+    "video": "reddit_videos/1oxyumi_315_lb_Squat_1_RPM_Form_Check_-_Squat_Depth_Advice-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oxyumi_315_lb_Squat_1_RPM_Form_Check_-_Squat_Depth_Advice-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 10,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oy1ooa_Squat_technique_check--seg1",
+    "video": "reddit_videos/1oy1ooa_Squat_technique_check--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oy1ooa_Squat_technique_check--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "back_rounding"
+      ],
+      "reddit_form_score": 9,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oy7nwv_Squat_225x6_hella_time_between_reps_sorry--seg2",
+    "video": "reddit_videos/1oy7nwv_Squat_225x6_hella_time_between_reps_sorry--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oy7nwv_Squat_225x6_hella_time_between_reps_sorry--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oyb4dk_Failed_PR_on_squat-",
+    "video": "reddit_videos/1oyb4dk_Failed_PR_on_squat-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oyb4dk_Failed_PR_on_squat-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "back_rounding",
+        "torso_collapse"
+      ],
+      "reddit_form_score": 3,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oycyvm_Squat_form_check--seg1",
+    "video": "reddit_videos/1oycyvm_Squat_form_check--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oycyvm_Squat_form_check--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "heel_lift"
+      ],
+      "reddit_form_score": 7.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "heel_lift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oycyvm_Squat_form_check--seg5",
+    "video": "reddit_videos/1oycyvm_Squat_form_check--seg5.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oycyvm_Squat_form_check--seg5",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "heel_lift",
+        "knee_valgus"
+      ],
+      "reddit_form_score": 6,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "heel_lift",
+          "knee_valgus"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oyn0tq_First_time_hitting_225_squat_want_to_make_sure_Im_not_settin--seg1",
+    "video": "reddit_videos/1oyn0tq_First_time_hitting_225_squat_want_to_make_sure_Im_not_settin--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oyn0tq_First_time_hitting_225_squat_want_to_make_sure_Im_not_settin--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "unknown",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "bar_drift_forward"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oytscc_Squat_230lbs_form_Check--seg2",
+    "video": "reddit_videos/1oytscc_Squat_230lbs_form_Check--seg2.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oytscc_Squat_230lbs_form_Check--seg2",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "knee_valgus",
+        "torso_collapse"
+      ],
+      "reddit_form_score": 4,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "knee_valgus"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1oyx9jd_60kg_squat_form_check__I_am_new_to_barbell_squats--seg1",
+    "video": "reddit_videos/1oyx9jd_60kg_squat_form_check__I_am_new_to_barbell_squats--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1oyx9jd_60kg_squat_form_check__I_am_new_to_barbell_squats--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "heel_lift"
+      ],
+      "reddit_form_score": 4,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "bar_drift_forward",
+          "heel_lift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ozk84j_Looking_for_some_feedback_on_my_squat_form--seg1",
+    "video": "reddit_videos/1ozk84j_Looking_for_some_feedback_on_my_squat_form--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ozk84j_Looking_for_some_feedback_on_my_squat_form--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 3.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "foot_collapse"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ozpcar_Critique_my_Squat--seg1",
+    "video": "reddit_videos/1ozpcar_Critique_my_Squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ozpcar_Critique_my_Squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 6.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ozpcar_Critique_my_Squat--seg4",
+    "video": "reddit_videos/1ozpcar_Critique_my_Squat--seg4.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight",
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight",
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ozpcar_Critique_my_Squat--seg4",
+      "exercise": "barbell_back_squat",
+      "camera_view": "unknown",
+      "reddit_issues": [
+        "back_hyperextension",
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 5.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ozvajg_Squat_check--seg1",
+    "video": "reddit_videos/1ozvajg_Squat_check--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ozvajg_Squat_check--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ozzms3_Form_Check_Back_Squat--seg1",
+    "video": "reddit_videos/1ozzms3_Form_Check_Back_Squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient",
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ozzms3_Form_Check_Back_Squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "insufficient_depth",
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 3,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1ozzms3_Form_Check_Back_Squat--seg3",
+    "video": "reddit_videos/1ozzms3_Form_Check_Back_Squat--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1ozzms3_Form_Check_Back_Squat--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 5.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p04nmg_Serving_round_squat_form_check_3x5x165--seg3",
+    "video": "reddit_videos/1p04nmg_Serving_round_squat_form_check_3x5x165--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p04nmg_Serving_round_squat_form_check_3x5x165--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "knee_valgus"
+      ],
+      "reddit_form_score": 6.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "knee_valgus"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p0gaze_Squat_Check--seg1",
+    "video": "reddit_videos/1p0gaze_Squat_Check--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p0gaze_Squat_Check--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p0vpii_Squat_form_check-",
+    "video": "reddit_videos/1p0vpii_Squat_form_check-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p0vpii_Squat_form_check-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "heel_lift",
+        "torso_collapse"
+      ],
+      "reddit_form_score": 8,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "heel_lift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p1ar5u_Squat_Form_Check-",
+    "video": "reddit_videos/1p1ar5u_Squat_Form_Check-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p1ar5u_Squat_Form_Check-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p1olbs_405_squat-",
+    "video": "reddit_videos/1p1olbs_405_squat-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p1olbs_405_squat-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 7,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p1v6of_Squat_form_check_please--seg3",
+    "video": "reddit_videos/1p1v6of_Squat_form_check_please--seg3.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p1v6of_Squat_form_check_please--seg3",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "heel_lift"
+      ],
+      "reddit_form_score": 4.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "heel_lift",
+          "foot_collapse"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p1xrks_Hows_my_squat_5x5_205lb--seg1",
+    "video": "reddit_videos/1p1xrks_Hows_my_squat_5x5_205lb--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p1xrks_Hows_my_squat_5x5_205lb--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p3f3bx_Why_does_my_squat_look_so_weird--seg1",
+    "video": "reddit_videos/1p3f3bx_Why_does_my_squat_look_so_weird--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight",
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight",
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p3f3bx_Why_does_my_squat_look_so_weird--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "loss_of_bracing",
+        "torso_collapse"
+      ],
+      "reddit_form_score": 5.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p4flh0_Squat_form_advice-",
+    "video": "reddit_videos/1p4flh0_Squat_form_advice-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p4flh0_Squat_form_advice-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 9,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p6jqsi_Why_does_my_squat_suck-",
+    "video": "reddit_videos/1p6jqsi_Why_does_my_squat_suck-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p6jqsi_Why_does_my_squat_suck-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 8.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p7li2j_Squat_imbalances--seg1",
+    "video": "reddit_videos/1p7li2j_Squat_imbalances--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p7li2j_Squat_imbalances--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "front",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 6,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1p7li2j_Squat_imbalances--seg4",
+    "video": "reddit_videos/1p7li2j_Squat_imbalances--seg4.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1p7li2j_Squat_imbalances--seg4",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth"
+      ],
+      "reddit_form_score": 8.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1pfb9pg_Is_something_wrong_with_my_squat_or_do_I_just_have_chicken_l--seg1",
+    "video": "reddit_videos/1pfb9pg_Is_something_wrong_with_my_squat_or_do_I_just_have_chicken_l--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "back not straight"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - back not straight"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1pfb9pg_Is_something_wrong_with_my_squat_or_do_I_just_have_chicken_l--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "45",
+      "reddit_issues": [
+        "back_rounding",
+        "heel_lift"
+      ],
+      "reddit_form_score": 6.5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "heel_lift"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1pfka94_How_is_my_squat_form-",
+    "video": "reddit_videos/1pfka94_How_is_my_squat_form-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": "shallow",
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient",
+        "squats - shallow"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1pfka94_How_is_my_squat_form-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "insufficient_depth",
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 7,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1pfwx8d_Squat_check_Follow_up-",
+    "video": "reddit_videos/1pfwx8d_Squat_check_Follow_up-.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1pfwx8d_Squat_check_Follow_up-",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 8,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1pn1ogt_Form_check_squat--seg1",
+    "video": "reddit_videos/1pn1ogt_Form_check_squat--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [
+          "insufficient"
+        ],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - insufficient"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1pn1ogt_Form_check_squat--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "front",
+      "reddit_issues": [
+        "knee_valgus",
+        "loss_of_bracing"
+      ],
+      "reddit_form_score": 5,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [
+          "knee_valgus"
+        ],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  },
+  {
+    "id": "reddit_1pnr2xr_feedback_on_my_rdl_and_squat_please--seg1",
+    "video": "reddit_videos/1pnr2xr_feedback_on_my_rdl_and_squat_please--seg1.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nYou are evaluating a squat video.\n\nStep 1: Describe what you observe about the person's stance, depth, and form.\nStep 2: Based on your observations, output the classification JSON.\n\nClassification rules:\n- \"stance\": Pick exactly one of: shoulder-width | narrow | wide | plie\n- \"depth\": Pick exactly one of: shallow | 90 degrees | over 90 degrees\n- \"form_issues\": List any that apply: back not straight | knees over toes | insufficient\n  (empty list [] if no issues)\n- \"variant\": \"hold\" if the person pauses at the bottom, otherwise null\n- \"visible\": false ONLY if the squat cannot be seen at all. If false, set all other fields to null.\n\nOutput ONLY valid JSON in this schema:\n{\"stance\": \"...\", \"depth\": \"...\", \"form_issues\": [...], \"variant\": \"...\"|null, \"visible\": true|false}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ],
+    "metadata": {
+      "structured_labels": {
+        "stance": null,
+        "depth": null,
+        "form_issues": [],
+        "variant": null,
+        "visible": true
+      },
+      "original_flat_labels": [
+        "squats - no obvious issue"
+      ],
+      "split": "test",
+      "domain": "wild",
+      "source": "reddit",
+      "reddit_id": "1pnr2xr_feedback_on_my_rdl_and_squat_please--seg1",
+      "exercise": "barbell_back_squat",
+      "camera_view": "side",
+      "reddit_issues": [
+        "none"
+      ],
+      "reddit_form_score": 10,
+      "mapping_notes": {
+        "unmapped_reddit_issues": [],
+        "mapping_is_approximate": true,
+        "comment": "QEVD squat labels differ from biomechanics issues; some Reddit issues have no QEVD equivalent."
+      }
+    }
+  }
+]

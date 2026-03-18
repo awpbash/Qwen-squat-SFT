@@ -1,0 +1,4 @@
+group,type,tool_invocation_rate,acc_when_not_invoked,missed_opportunity_rate
+stance,geometric,0.1114,0.0545,0.9455
+depth,geometric,0.1114,0.1798,0.8202
+form,holistic,0.1114,0.6131,0.3869

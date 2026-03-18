@@ -1,0 +1,180 @@
+{
+  "per_label": {
+    "shoulder-width": {
+      "TP": 0,
+      "FP": 15,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "narrow": {
+      "TP": 0,
+      "FP": 20,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wide": {
+      "TP": 0,
+      "FP": 16,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "plie": {
+      "TP": 0,
+      "FP": 19,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "shallow": {
+      "TP": 0,
+      "FP": 2,
+      "FN": 19,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "90 degrees": {
+      "TP": 0,
+      "FP": 7,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "over 90 degrees": {
+      "TP": 0,
+      "FP": 61,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "back not straight": {
+      "TP": 21,
+      "FP": 42,
+      "FN": 0,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5
+    },
+    "knees over toes": {
+      "TP": 0,
+      "FP": 51,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "insufficient": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 17,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "hold": {
+      "TP": 0,
+      "FP": 4,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "not visible": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "micro": {
+    "precision": 0.08139534883720931,
+    "recall": 0.3684210526315789,
+    "f1": 0.13333333333333336,
+    "TP": 21,
+    "FP": 237,
+    "FN": 36
+  },
+  "macro": {
+    "precision": 0.027777777777777776,
+    "recall": 0.08333333333333333,
+    "f1": 0.041666666666666664
+  },
+  "macro_f1_active": 0.16666666666666666,
+  "n_active_labels": 3,
+  "subset_accuracy": 0.0,
+  "hamming_loss": 0.32500000000000007,
+  "stance_accuracy": 0.0,
+  "depth_accuracy": 0.0,
+  "label_coverage": 0.08333333333333333,
+  "geometric_avg_f1": 0.0,
+  "holistic_avg_f1": 0.16666666666666666,
+  "domain": "wild",
+  "total_samples": 70,
+  "bootstrap_ci": {
+    "macro_f1": {
+      "mean": 0.04134852706575097,
+      "ci_low": 0.02968036529680365,
+      "ci_high": 0.052083333333333336,
+      "se": 0.005689178122965713
+    },
+    "macro_f1_active": {
+      "mean": 0.16539410826300388,
+      "ci_low": 0.1187214611872146,
+      "ci_high": 0.20833333333333334,
+      "se": 0.02275671249186285
+    },
+    "micro_f1": {
+      "mean": 0.1328531112027208,
+      "ci_low": 0.0880503144654088,
+      "ci_high": 0.18012422360248448,
+      "se": 0.023563659266984303
+    },
+    "subset_accuracy": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "hamming_loss": {
+      "mean": 0.32522285714285715,
+      "ci_low": 0.3059523809523809,
+      "ci_high": 0.34404761904761916,
+      "se": 0.010017852273433443
+    },
+    "stance_accuracy": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "depth_accuracy": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "geometric_avg_f1": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "holistic_avg_f1": {
+      "mean": 0.16539410826300388,
+      "ci_low": 0.1187214611872146,
+      "ci_high": 0.20833333333333334,
+      "se": 0.02275671249186285
+    }
+  }
+}

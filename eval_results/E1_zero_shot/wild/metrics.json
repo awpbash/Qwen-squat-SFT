@@ -1,0 +1,182 @@
+{
+  "per_label": {
+    "shoulder-width": {
+      "TP": 0,
+      "FP": 12,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "narrow": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wide": {
+      "TP": 0,
+      "FP": 58,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "plie": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "shallow": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 19,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "90 degrees": {
+      "TP": 0,
+      "FP": 8,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "over 90 degrees": {
+      "TP": 0,
+      "FP": 62,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "back not straight": {
+      "TP": 18,
+      "FP": 41,
+      "FN": 3,
+      "precision": 0.3050847457627119,
+      "recall": 0.8571428571428571,
+      "f1": 0.45000000000000007
+    },
+    "knees over toes": {
+      "TP": 0,
+      "FP": 3,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "insufficient": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 17,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "hold": {
+      "TP": 0,
+      "FP": 54,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "not visible": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "micro": {
+    "precision": 0.0703125,
+    "recall": 0.3157894736842105,
+    "f1": 0.11501597444089458,
+    "TP": 18,
+    "FP": 238,
+    "FN": 39
+  },
+  "macro": {
+    "precision": 0.025423728813559324,
+    "recall": 0.07142857142857142,
+    "f1": 0.037500000000000006
+  },
+  "macro_f1_active": 0.15000000000000002,
+  "n_active_labels": 3,
+  "subset_accuracy": 0.0,
+  "hamming_loss": 0.3297619047619047,
+  "stance_accuracy": 0.0,
+  "depth_accuracy": 0.0,
+  "label_coverage": 0.08333333333333333,
+  "geometric_avg_f1": 0.0,
+  "holistic_avg_f1": 0.15000000000000002,
+  "domain": "wild",
+  "total_samples": 70,
+  "parse_failures": 0,
+  "json_parse_rate": 1.0,
+  "bootstrap_ci": {
+    "macro_f1": {
+      "mean": 0.03714803269407097,
+      "ci_low": 0.025252525252525252,
+      "ci_high": 0.04838709677419354,
+      "se": 0.005843984798709691
+    },
+    "macro_f1_active": {
+      "mean": 0.1485921307762839,
+      "ci_low": 0.10101010101010101,
+      "ci_high": 0.19354838709677416,
+      "se": 0.023375939194838765
+    },
+    "micro_f1": {
+      "mean": 0.11452714992138567,
+      "ci_low": 0.07119741100323625,
+      "ci_high": 0.1597444089456869,
+      "se": 0.022596611193024342
+    },
+    "subset_accuracy": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "hamming_loss": {
+      "mean": 0.3299119047619048,
+      "ci_low": 0.3130952380952381,
+      "ci_high": 0.3452380952380953,
+      "se": 0.00835650892996583
+    },
+    "stance_accuracy": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "depth_accuracy": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "geometric_avg_f1": {
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "se": 0.0
+    },
+    "holistic_avg_f1": {
+      "mean": 0.1485921307762839,
+      "ci_low": 0.10101010101010101,
+      "ci_high": 0.19354838709677416,
+      "se": 0.023375939194838765
+    }
+  }
+}

@@ -1,0 +1,32 @@
+# ── Large data (179GB raw videos, 1.2TB archive) ──
+data/
+archive/
+squat_videos/
+
+# ── Model checkpoints & optimizer states (235GB) ──
+Qwen-VL-Series-Finetune/output/
+
+# ── Large training JSONs (regenerable via create_splits.py + generate_agentic_training_data.py) ──
+new_qevd_mrq_train.json
+new_qevd_mrq_agentic_train.json
+new_qevd_mrq_mixed_train.json
+new_qevd_mrq_clean.json
+pose_cache.json
+
+# ── Binary model files ──
+*.pt
+*.bin
+*.safetensors
+pose_landmarker_lite.task
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo

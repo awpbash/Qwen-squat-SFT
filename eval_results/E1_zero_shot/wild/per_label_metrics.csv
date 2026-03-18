@@ -1,0 +1,13 @@
+label,group,TP,FP,FN,precision,recall,f1
+shoulder-width,geometric,0,12,0,0.0000,0.0000,0.0000
+narrow,geometric,0,0,0,0.0000,0.0000,0.0000
+wide,geometric,0,58,0,0.0000,0.0000,0.0000
+plie,geometric,0,0,0,0.0000,0.0000,0.0000
+shallow,geometric,0,0,19,0.0000,0.0000,0.0000
+90 degrees,geometric,0,8,0,0.0000,0.0000,0.0000
+over 90 degrees,geometric,0,62,0,0.0000,0.0000,0.0000
+back not straight,holistic,18,41,3,0.3051,0.8571,0.4500
+knees over toes,holistic,0,3,0,0.0000,0.0000,0.0000
+insufficient,holistic,0,0,17,0.0000,0.0000,0.0000
+hold,temporal,0,54,0,0.0000,0.0000,0.0000
+not visible,meta,0,0,0,0.0000,0.0000,0.0000

@@ -1,0 +1,54 @@
+\begin{table}[t]
+\centering
+\caption{Pairwise McNemar's tests (subset accuracy). $b$ = A wrong, B right; $c$ = A right, B wrong. Significance: $^*p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$. HB = significant after Holm--Bonferroni correction.}
+\label{tab:mcnemar}
+\small
+\begin{tabular}{llccccl}
+\toprule
+Experiment A & Experiment B & $b$ & $c$ & $\chi^2$ & $p$ & Sig. \\
+\midrule
+E1\_zero\_shot/controlled & E2\_sft/controlled & 38 & 2 & 30.62 & 0.0000 & $^{***}$ (HB) \\
+E1\_zero\_shot/controlled & E3\_pose\_only/controlled & 23 & 4 & 12.00 & 0.0005 & $^{***}$ (HB) \\
+E1\_zero\_shot/controlled & E4\_always\_tool/controlled & 16 & 2 & 9.39 & 0.0022 & $^{**}$ \\
+E1\_zero\_shot/controlled & E5\_agentic\_untrained/controlled & 9 & 4 & 1.23 & 0.2673 & n.s. \\
+E1\_zero\_shot/controlled & E5b\_agentic\_trained/controlled & 11 & 4 & 2.40 & 0.1213 & n.s. \\
+E1\_zero\_shot/controlled & E5c\_agentic\_sft/controlled & 0 & 4 & 2.25 & 0.1336 & n.s. \\
+E1\_zero\_shot/wild & E2\_sft/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E1\_zero\_shot/wild & E3\_pose\_only/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E1\_zero\_shot/wild & E4\_always\_tool/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E1\_zero\_shot/wild & E5\_agentic\_untrained/wild & 17 & 0 & 15.06 & 0.0001 & $^{***}$ (HB) \\
+E1\_zero\_shot/wild & E5b\_agentic\_trained/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E1\_zero\_shot/wild & E5c\_agentic\_sft/wild & 21 & 0 & 19.05 & 0.0000 & $^{***}$ (HB) \\
+E2\_sft/controlled & E3\_pose\_only/controlled & 23 & 40 & 4.06 & 0.0438 & $^{*}$ \\
+E2\_sft/controlled & E4\_always\_tool/controlled & 0 & 22 & 20.05 & 0.0000 & $^{***}$ (HB) \\
+E2\_sft/controlled & E5\_agentic\_untrained/controlled & 9 & 40 & 18.37 & 0.0000 & $^{***}$ (HB) \\
+E2\_sft/controlled & E5b\_agentic\_trained/controlled & 10 & 39 & 16.00 & 0.0001 & $^{***}$ (HB) \\
+E2\_sft/controlled & E5c\_agentic\_sft/controlled & 0 & 40 & 38.02 & 0.0000 & $^{***}$ (HB) \\
+E2\_sft/wild & E3\_pose\_only/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E2\_sft/wild & E4\_always\_tool/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E2\_sft/wild & E5\_agentic\_untrained/wild & 17 & 0 & 15.06 & 0.0001 & $^{***}$ (HB) \\
+E2\_sft/wild & E5b\_agentic\_trained/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E2\_sft/wild & E5c\_agentic\_sft/wild & 21 & 0 & 19.05 & 0.0000 & $^{***}$ (HB) \\
+E3\_pose\_only/controlled & E4\_always\_tool/controlled & 18 & 23 & 0.39 & 0.5322 & n.s. \\
+E3\_pose\_only/controlled & E5\_agentic\_untrained/controlled & 9 & 23 & 5.28 & 0.0216 & $^{*}$ \\
+E3\_pose\_only/controlled & E5b\_agentic\_trained/controlled & 9 & 21 & 4.03 & 0.0446 & $^{*}$ \\
+E3\_pose\_only/controlled & E5c\_agentic\_sft/controlled & 0 & 23 & 21.04 & 0.0000 & $^{***}$ (HB) \\
+E3\_pose\_only/wild & E4\_always\_tool/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E3\_pose\_only/wild & E5\_agentic\_untrained/wild & 17 & 0 & 15.06 & 0.0001 & $^{***}$ (HB) \\
+E3\_pose\_only/wild & E5b\_agentic\_trained/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E3\_pose\_only/wild & E5c\_agentic\_sft/wild & 21 & 0 & 19.05 & 0.0000 & $^{***}$ (HB) \\
+E4\_always\_tool/controlled & E5\_agentic\_untrained/controlled & 9 & 18 & 2.37 & 0.1237 & n.s. \\
+E4\_always\_tool/controlled & E5b\_agentic\_trained/controlled & 11 & 18 & 1.24 & 0.2652 & n.s. \\
+E4\_always\_tool/controlled & E5c\_agentic\_sft/controlled & 0 & 18 & 16.06 & 0.0001 & $^{***}$ (HB) \\
+E4\_always\_tool/wild & E5\_agentic\_untrained/wild & 17 & 0 & 15.06 & 0.0001 & $^{***}$ (HB) \\
+E4\_always\_tool/wild & E5b\_agentic\_trained/wild & 0 & 0 & 0.00 & 1.0000 & n.s. \\
+E4\_always\_tool/wild & E5c\_agentic\_sft/wild & 21 & 0 & 19.05 & 0.0000 & $^{***}$ (HB) \\
+E5\_agentic\_untrained/controlled & E5b\_agentic\_trained/controlled & 7 & 5 & 0.08 & 0.7728 & n.s. \\
+E5\_agentic\_untrained/controlled & E5c\_agentic\_sft/controlled & 0 & 9 & 7.11 & 0.0077 & $^{**}$ \\
+E5\_agentic\_untrained/wild & E5b\_agentic\_trained/wild & 0 & 17 & 15.06 & 0.0001 & $^{***}$ (HB) \\
+E5\_agentic\_untrained/wild & E5c\_agentic\_sft/wild & 7 & 3 & 0.90 & 0.3428 & n.s. \\
+E5b\_agentic\_trained/controlled & E5c\_agentic\_sft/controlled & 0 & 11 & 9.09 & 0.0026 & $^{**}$ \\
+E5b\_agentic\_trained/wild & E5c\_agentic\_sft/wild & 21 & 0 & 19.05 & 0.0000 & $^{***}$ (HB) \\
+\bottomrule
+\end{tabular}
+\end{table}
