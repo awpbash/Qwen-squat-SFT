@@ -110,6 +110,10 @@ The raw distribution is heavily skewed (shoulder-width: 61.8%, wide: 5.4%; no fo
 >
 > ![Figure 2: Label Distribution](thesis_figures/fig2_label_distribution.png)
 
+> **Figure 2b**: Effect of oversampling on per-label distribution (%), with per-label duplication factors and within-group imbalance ratios.
+>
+> ![Figure 2b: Oversampling Effect](thesis_figures/fig2b_oversampling_effect.png)
+
 | | Raw | Oversampled | Val/Test |
 |--|:---:|:----------:|:--------:|
 | Samples | 3,220 | 11,180 | 399 / 413 |
@@ -607,6 +611,7 @@ All outputs in `thesis_figures/`:
 | Fig 1 | ![](thesis_figures/fig1_macro_f1_controlled.png) | [PDF](thesis_figures/fig1_macro_f1_controlled.pdf) | Macro F1 bar chart (controlled) |
 | Fig 1b | ![](thesis_figures/fig1_macro_f1_wild.png) | [PDF](thesis_figures/fig1_macro_f1_wild.pdf) | Macro F1 bar chart (wild) |
 | Fig 2 | ![](thesis_figures/fig2_label_distribution.png) | [PDF](thesis_figures/fig2_label_distribution.pdf) | Label distribution |
+| Fig 2b | ![](thesis_figures/fig2b_oversampling_effect.png) | [PDF](thesis_figures/fig2b_oversampling_effect.pdf) | Oversampling effect per label |
 | Fig 3 | ![](thesis_figures/fig3_per_label_bar.png) | [PDF](thesis_figures/fig3_per_label_bar.pdf) | Per-label F1 comparison |
 | Fig 4 | ![](thesis_figures/fig4_transfer_gap.png) | [PDF](thesis_figures/fig4_transfer_gap.pdf) | Transfer gap analysis |
 | Fig 5 | ![](thesis_figures/fig5_calibration.png) | [PDF](thesis_figures/fig5_calibration.pdf) | Agentic calibration |

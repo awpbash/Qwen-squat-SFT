@@ -153,7 +153,7 @@ Orchestrated by `run_all.sh` (supports `--phase N`, `--dry`, `--skip-training`).
 | Wild (Reddit) | 70 | 3 active labels only (exploratory) |
 
 Raw: 4,308 -> Cleaned: 4,032 (276 dropped, 527 conflict-resolved).
-Oversampling reduces stance imbalance from 11.4x to 1.7x. See [Figure 2](thesis_figures/fig2_label_distribution.png).
+Oversampling reduces stance imbalance from 11.4x to 1.9x. See [Figure 2](thesis_figures/fig2_label_distribution.png) and [Figure 2b](thesis_figures/fig2b_oversampling_effect.png) for the per-label breakdown.
 
 
 ## Experiment Matrix
@@ -177,6 +177,7 @@ Oversampling reduces stance imbalance from 11.4x to 1.7x. See [Figure 2](thesis_
 |--------|-------------|
 | [Fig 1: Macro F1 (controlled)](thesis_figures/fig1_macro_f1_controlled.png) | Main result, bar chart with 95% CIs |
 | [Fig 2: Label distribution](thesis_figures/fig2_label_distribution.png) | Pre/post oversampling label counts |
+| [Fig 2b: Oversampling effect](thesis_figures/fig2b_oversampling_effect.png) | Per-label distribution (%) with boost factors and imbalance ratios |
 | [Fig 3: Per-label F1](thesis_figures/fig3_per_label_bar.png) | Controlled vs wild, per label |
 | [Fig 4: Transfer gap](thesis_figures/fig4_transfer_gap.png) | Per-label gap by experiment |
 | [Fig 5: Calibration](thesis_figures/fig5_calibration.png) | Tool invocation calibration (agentic experiments) |
